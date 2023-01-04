@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D128B07C2965DAC700949DFD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D128B07B2965DAC700949DFD /* LocationManager.swift */; };
 		D14EE4832963EB98005CE2C5 /* Weather_Application_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EE4822963EB98005CE2C5 /* Weather_Application_SwiftUIApp.swift */; };
 		D14EE4852963EB98005CE2C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EE4842963EB98005CE2C5 /* ContentView.swift */; };
 		D14EE4872963EB9B005CE2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14EE4862963EB9B005CE2C5 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D128B07B2965DAC700949DFD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		D14EE47F2963EB98005CE2C5 /* Weather Application SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Application SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14EE4822963EB98005CE2C5 /* Weather_Application_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_Application_SwiftUIApp.swift; sourceTree = "<group>"; };
 		D14EE4842963EB98005CE2C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				D14EE4822963EB98005CE2C5 /* Weather_Application_SwiftUIApp.swift */,
 				D14EE4842963EB98005CE2C5 /* ContentView.swift */,
 				D14EE49429642D46005CE2C5 /* WeatherButtonView.swift */,
+				D128B07B2965DAC700949DFD /* LocationManager.swift */,
 				D14EE4862963EB9B005CE2C5 /* Assets.xcassets */,
 				D14EE4882963EB9B005CE2C5 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D128B07C2965DAC700949DFD /* LocationManager.swift in Sources */,
 				D14EE4852963EB98005CE2C5 /* ContentView.swift in Sources */,
 				D14EE49529642D46005CE2C5 /* WeatherButtonView.swift in Sources */,
 				D14EE4832963EB98005CE2C5 /* Weather_Application_SwiftUIApp.swift in Sources */,

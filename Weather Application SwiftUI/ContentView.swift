@@ -10,6 +10,11 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var isNight = false
+    @ObservedObject var locatinManager = LocationManager()
+    
+     
+   
+   
     
     var body: some View {
         ZStack{
@@ -19,6 +24,8 @@ struct ContentView: View {
                 CityTextView(locationName: "Beldanga, West Bengal , India")
                 
                 MeainWeatherStatusView(imageName: "cloud.sun.fill", tempareture: "76°C")
+                
+                Text(locatinManager.latittude)
                 
                 HStack {
                     
@@ -33,6 +40,7 @@ struct ContentView: View {
                 Spacer()
                 
                 Button("Change Day time") {
+                   
                     
                     isNight.toggle()
                     
@@ -43,6 +51,10 @@ struct ContentView: View {
                 
                 Spacer()
                 
+            }.onAppear{
+            print("step1")
+                
+                locatinManager.requestLocation()
             }
             
         }
